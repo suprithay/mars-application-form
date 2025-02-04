@@ -19,3 +19,86 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+.form-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #005bb5;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.date-picker-wrapper {
+  width: 100%; /* Ensures it takes full width like other inputs */
+}
+
+.form-input,
+.react-datepicker-wrapper,
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 10px; /* Match input padding */
+  font-size: 16px; /* Match font size */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Spacing between label and input */
+  margin-bottom: 10px; /* Add spacing between form fields */
+}
+
+.form-label {
+  min-width: 150px; /* Adjust as needed */
+  font-weight: bold;
+}
+
+.form-input {
+  flex: 1; /* Input takes the remaining space */
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
