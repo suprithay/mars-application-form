@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Mars Application Form 🚀
 
-## Getting Started
+A multi-step application form built with Next.js, React Hook Form, and Yup Validation. This form allows users to enter their personal information, travel preferences, and health details in a structured format.
 
-First, run the development server:
+🌍 Live Demo
 
-```bash
+View the live site here: https://mars-application-form.vercel.app
+
+📦 Installation
+
+1️⃣ Clone the repository
+
+git clone https://github.com/suprithay/mars-application-form.git
+
+2️⃣ Navigate to the project folder
+
+cd mars-application-form
+
+3️⃣ Install dependencies
+
+npm install
+
+4️⃣ Run the project locally
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5️⃣ Open in browser
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Go to http://localhost:3000/ to view the project.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📜 Features
 
-## Learn More
+✅ Multi-step form with validation
+✅ Date picker for Date of Birth & Travel Dates
+✅ Real-time input validation using Yup & React Hook Form
+✅ Responsive design using Tailwind CSS
+✅ Live deployment on Vercel
 
-To learn more about Next.js, take a look at the following resources:
+⚙️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js (React Framework)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+React Hook Form (Form handling)
 
-## Deploy on Vercel
+Yup (Validation)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+React DatePicker (Date selection)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tailwind CSS (Styling)
