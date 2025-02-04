@@ -17,14 +17,9 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
   text-align: center;
   padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .form-container {
@@ -64,11 +59,6 @@ button:hover {
   color: red;
   font-size: 12px;
 }
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
 
 .date-picker-wrapper {
   width: 100%; /* Ensures it takes full width like other inputs */
@@ -91,14 +81,17 @@ button:hover {
 }
 
 .form-label {
-  min-width: 150px; /* Adjust as needed */
-  font-weight: bold;
+  display: block;
+  align-items: center;
 }
+.checkbox-label {
+  display: flex;
+  align-items: center; /* Align checkbox and text */
+  gap: 16px; /* Adds space between checkbox and text */
 
-.form-input {
-  flex: 1; /* Input takes the remaining space */
-  padding: 8px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  cursor: pointer; /* Makes text clickable */
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+.checkbox {
+  margin-right: 30px; /* Adds space between checkbox and text */
 }

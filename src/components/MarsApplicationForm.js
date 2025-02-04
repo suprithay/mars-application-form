@@ -139,8 +139,8 @@ const MarsApplicationForm = () => {
           <div>
             <h3>Health and Safety</h3>
             <div className="form-group">
-              <label>
-                <input type="checkbox" {...register("healthDeclaration")} /> I
+              <label className="checkbox-label">
+                <input type="checkbox" {...register("healthDeclaration")} />I
                 declare that I am in good health.
               </label>
               <p className="error">{errors.healthDeclaration?.message}</p>
